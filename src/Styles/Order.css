@@ -1,0 +1,85 @@
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background: #FAF7F2;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  .order-form h2 {
+    font-size: 2rem;
+    color: #292929;
+    margin-bottom: 10px;
+  }
+  
+  .order-form .price {
+    font-size: 1.5rem;
+    color: #CE2829;
+  }
+  
+  .options,
+  .ingredients,
+  .quantity-total {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ingredients {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .quantity-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .quantity-total button {
+    background-color: #FDC913;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .quantity-total span {
+    font-size: 1.5rem;
+  }
+  
+  .submit-button {
+    background-color: #CE2829;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  @media (max-width: 768px) {
+    .order-form {
+      padding: 20px;
+      max-width: 90%;
+    }
+    .ingredients {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .quantity-total span {
+      font-size: 1.2rem;
+    }
+  }
+  

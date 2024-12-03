@@ -1,0 +1,46 @@
+.success-page {
+    text-align: center;
+    background: #CE2829;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .success-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .success-page p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .back-button {
+    margin-top: 30px;
+    background-color: #FDC913;
+    color: #292929;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .success-page h1 {
+      font-size: 2.5rem;
+    }
+    .success-page p {
+      font-size: 1.2rem;
+    }
+    .back-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
