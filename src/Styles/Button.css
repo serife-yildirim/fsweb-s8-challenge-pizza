@@ -1,37 +1,40 @@
 .lower {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Dikey hizalama */
+  align-items: center; 
 }
 
 button {
-  background-color: #FDC913; /* Sarı renk */
-  color: black; /* Yazı rengi siyah */
-  padding: 10px 20px; /* Daha geniş tıklama alanı */
+  background-color: #FDC913; 
+  color: black; 
+  padding: 10px 20px; 
   border: none;
-  border-radius: 5px; /* Köşeler yuvarlak */
+  border-radius: 5px; 
   font-size: 16px;
-  font-weight: bold; /* Daha belirgin yazı */
+  font-weight: bold; 
   cursor: pointer;
-  width: 150px; /* Genişlik artırıldı */
+  width: auto; 
   margin-top: 20px;
-  transition: 0.3s ease; /* Hover için yumuşak geçiş */
+  transition: 0.3s ease; 
 }
 
 button:hover {
-  background-color: #E8B400; /* Daha koyu sarı */
+  background-color: #E8B400; 
+}
+
+button:active {
+  background-color: #d9a300;
 }
 
 .siparis {
   width: 80%;
-  text-align: center; /* Yazıyı ortala */
+  text-align: center;
 }
-
 .count {
-  border: 1px solid #5F5F5F; /* Kenar çerçevesi */
-  border-radius: 4px; /* Köşeleri hafif yuvarlat */
-  padding: 5px 10px; /* İçerik alanını genişlet */
-  width: 50px; /* Daha geniş alan */
+  border: 1px solid #5F5F5F; 
+  border-radius: 4px; 
+  padding: 5px 10px; 
+  width: 50px; 
   margin: 0;
-  text-align: center; /* Sayıyı ortala */
+  text-align: center; 
 }
