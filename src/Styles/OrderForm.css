@@ -1,0 +1,21 @@
+.size-container {
+  display: flex;
+  flex-direction: column; /* Dikey düzen */
+  gap: 10px; /* Daha temiz bir görünüm */
+}
+
+label {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.size {
+  display: flex;
+  gap: 15px; /* Alanlar arasında boşluk */
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px; /* Kutular ve yazılar arasında boşluk */
+}

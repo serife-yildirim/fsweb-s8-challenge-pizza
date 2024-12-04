@@ -1,0 +1,22 @@
+.urunler{
+    font-weight: bold;
+}
+
+
+.check {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 0.5rem;
+  }
+  
+  .urunler-item {
+    display: flex;
+    align-items: center; 
+    gap: 0.1rem; 
+  }
+  
+ 
+  input[type="checkbox"] {
+    margin-right: 5px; 
+  }
+  

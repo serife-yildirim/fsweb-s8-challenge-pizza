@@ -1,0 +1,37 @@
+.lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Dikey hizalama */
+}
+
+button {
+  background-color: #FDC913; /* Sarı renk */
+  color: black; /* Yazı rengi siyah */
+  padding: 10px 20px; /* Daha geniş tıklama alanı */
+  border: none;
+  border-radius: 5px; /* Köşeler yuvarlak */
+  font-size: 16px;
+  font-weight: bold; /* Daha belirgin yazı */
+  cursor: pointer;
+  width: 150px; /* Genişlik artırıldı */
+  margin-top: 20px;
+  transition: 0.3s ease; /* Hover için yumuşak geçiş */
+}
+
+button:hover {
+  background-color: #E8B400; /* Daha koyu sarı */
+}
+
+.siparis {
+  width: 80%;
+  text-align: center; /* Yazıyı ortala */
+}
+
+.count {
+  border: 1px solid #5F5F5F; /* Kenar çerçevesi */
+  border-radius: 4px; /* Köşeleri hafif yuvarlat */
+  padding: 5px 10px; /* İçerik alanını genişlet */
+  width: 50px; /* Daha geniş alan */
+  margin: 0;
+  text-align: center; /* Sayıyı ortala */
+}
